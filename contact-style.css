@@ -1,0 +1,46 @@
+main {
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+form {
+    margin: 25px 0;
+}
+
+form label, form legend {
+    display: block;
+    margin-bottom: 10px;
+    width: 30%;
+    font-size: 20px;
+}
+
+.question {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.standard-input {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 12px 20px;
+}
+
+.send {
+    width: 40%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #75140e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+.send:hover {
+    background: #75140e;
+    transform: scale(1.1);
+}
+

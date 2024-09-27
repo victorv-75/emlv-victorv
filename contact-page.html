@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact-style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="urban-cloth-logo.jpg" alt="Logo Urban Cloth">
+    </div>
+    <nav>
+        <a href="index.html">ALL PRODUCTS</a>
+        <a href="t-shirts-page.html">T-SHIRTS</a>
+        <a href="sweats-page.html">SWEATS</a>
+        <a href="contact-page.html">CONTACT</a>
+    </nav>
+</header>
+
+<main>
+    <form>
+        <label for="first-name">First name:</label>
+        <input type="text" id="first-name" class="standard-input" required>
+
+        <label for="last-name">Last name:</label>
+        <input type="text" id="last-name" class="standard-input" required>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" class="standard-input" required placeholder="youremail@domain.com">
+
+        <label for="phonenumber">Phone number: </label>
+        <input type="tel" id="phonenumber" class="standard-input" required>
+
+        <label for="message">Message: </label>
+        <textarea cols="55" rows="7" id="message" style="width: 54%"></textarea>
+
+        <fieldset>
+            <legend class="question">Which way do you want to contact us?</legend>
+
+            <label for="radio-email"><input type="radio" value="email" name="ways" id="radio-email"
+                                            checked>Email</label>
+
+            <label for="radio-phone"><input type="radio" value="phone" name="ways" id="radio-phone">Phone</label>
+        </fieldset>
+
+        <label class="question">Would you like to receive our news at your email? <input type="checkbox"
+                                                                                         checked></label>
+
+        <input type="submit" value="Send form" class="send">
+
+    </form>
+</main>
+
+</body>
+</html>
